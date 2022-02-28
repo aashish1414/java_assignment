@@ -1,0 +1,20 @@
+package Mypackage;
+import java.util.*;
+import java.util.scanner;
+public class main {
+
+    public static void main(string[]args){
+        scanner sc=new scanner(system.in);
+        int n;
+        system.out.println("Enter the number:");
+        n=sc.nextInt();
+        double a=Math.sqrt(n);
+        int b=(int)a;
+        double c=a-b;
+        if(c==0)
+            system.out.println("IT IS A PERFECT SQUARE");
+        else
+            system.out.println("IT IS NOT PERFECT SQUARE");
+    }
+}
+    
